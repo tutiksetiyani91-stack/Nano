@@ -1,0 +1,13 @@
+{
+  "name": "free-model-aggregator-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "make.fun 'best free AI model aggregator' entry: OpenAI/Anthropic-compatible aggregator over simulated free-tier providers, with quality-ranked routing and failover.",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
